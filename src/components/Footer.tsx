@@ -1,0 +1,23 @@
+import { Heart } from "lucide-react";
+
+const Footer = () => {
+  const currentYear = new Date().getFullYear();
+
+  return (
+    <footer className="py-8 border-t border-border">
+      <div className="container mx-auto px-4">
+        <div className="flex flex-col items-center gap-4">
+          <p className="text-muted-foreground text-sm">
+            © {currentYear} RHINNO. All rights reserved.
+          </p>
+          <p className="text-muted-foreground text-sm flex items-center gap-1">
+            Built with <Heart className="w-4 h-4 text-primary fill-primary" /> by{" "}
+            <span className="gradient-text font-semibold">RHINNO</span>
+          </p>
+        </div>
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;
