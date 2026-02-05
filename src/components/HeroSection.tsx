@@ -100,17 +100,7 @@ const HeroSection = () => {
               <FolderOpen className="mr-2 h-5 w-5" />
               View Projects
             </Button>
-            <Button
-              size="lg"
-              variant="outline"
-              className="border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300"
-              asChild
-            >
-              <a href="#contact">
-                <Download className="mr-2 h-5 w-5" />
-                Download Resume
-              </a>
-            </Button>
+            
           </motion.div>
         </motion.div>
 

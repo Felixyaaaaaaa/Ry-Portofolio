@@ -27,8 +27,12 @@ const AboutSection = () => {
             viewport={{ once: true }}
             className="relative"
           >
-            <div className="w-64 h-64 md:w-80 md:h-80 mx-auto rounded-2xl bg-gradient-to-br from-primary/20 to-secondary border border-primary/30 flex items-center justify-center glow-border">
-              <User className="w-32 h-32 text-primary/50" />
+            <div className="w-64 h-64 md:w-80 md:h-80 mx-auto rounded-2xl bg-gradient-to-br from-primary/20 to-secondary border border-primary/30 flex items-center justify-center glow-border overflow-hidden">
+              <img
+                src="/profile.jpg"
+                alt="Profile"
+                className="w-full h-full object-cover rounded-2xl"
+              />
             </div>
             {/* Decorative Elements */}
             <div className="absolute -top-4 -right-4 w-20 h-20 bg-primary/10 rounded-lg animate-float" />
@@ -44,13 +48,13 @@ const AboutSection = () => {
             className="space-y-6"
           >
             <p className="text-muted-foreground text-lg leading-relaxed">
-              I am <span className="text-primary font-semibold">Felix Yulian Asterino</span>, 
-              also known as <span className="text-primary font-semibold">RHINNO</span>, 
+              I am <span className="text-primary font-semibold">Felix Yulian Asterino</span>,
+              also known as <span className="text-primary font-semibold">RHINNO</span>,
               a Fullstack Developer with a strong interest in backend development.
             </p>
-            
+
             <p className="text-muted-foreground text-lg leading-relaxed">
-              I enjoy building APIs, managing databases, and creating reliable backend 
+              I enjoy building APIs, managing databases, and creating reliable backend
               systems that support scalable applications.
             </p>
 
@@ -60,7 +64,7 @@ const AboutSection = () => {
                 <GraduationCap className="text-primary" />
                 Education
               </h3>
-              
+
               <div className="border-l-2 border-primary/30 pl-6 space-y-6">
                 <div className="relative">
                   <div className="absolute -left-[29px] w-4 h-4 bg-primary rounded-full animate-pulse-glow" />
