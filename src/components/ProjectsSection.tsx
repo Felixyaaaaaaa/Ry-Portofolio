@@ -4,10 +4,10 @@ import { ExternalLink, Github, Folder } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import WarehouseImage from "@/assets/projects/warehouse.jpg";
-import LandingPageImage from "@/assets/projects/landing-page.jpg";
-import LibraryImage from "@/assets/projects/library.jpg";
-import StudentImage from "@/assets/projects/student.jpg";
+import WarehouseImage from "@/assets/warehouse.jpg";
+import LandingPageImage from "@/assets/landing-page.jpg";
+import LibraryImage from "@/assets/library.jpg";
+import StudentImage from "@/assets/student.jpg";
 
 interface Project {
   id: number;
