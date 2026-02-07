@@ -29,7 +29,7 @@ const AboutSection = () => {
           >
             <div className="w-64 h-64 md:w-80 md:h-80 mx-auto rounded-2xl bg-gradient-to-br from-primary/20 to-secondary border border-primary/30 flex items-center justify-center glow-border overflow-hidden">
               <img
-                src="https://raw.githubusercontent.com/Felixyaaaaaaa/Ry-Portofolio/refs/heads/gh-pages/profile.jpg"
+                src="/profile.jpg"
                 alt="Profile"
                 className="w-full h-full object-cover rounded-2xl"
               />
