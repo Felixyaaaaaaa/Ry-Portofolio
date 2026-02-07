@@ -4,6 +4,10 @@ import { ExternalLink, Github, Folder } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
+import WarehouseImage from "@/assets/projects/warehouse.jpg";
+import LandingPageImage from "@/assets/projects/landing-page.jpg";
+import LibraryImage from "@/assets/projects/library.jpg";
+import StudentImage from "@/assets/projects/student.jpg";
 
 interface Project {
   id: number;
@@ -21,7 +25,7 @@ const projects: Project[] = [
     description: "A comprehensive warehouse management system for retail businesses with inventory tracking, order management, and reporting features.",
     tech: ["React.js", "Node.js", "MySQL", "PHP"],
     category: ["React", "Node.js", "PHP"],
-    image: "Ry-Portofolio/projects/warehouse.jpg",
+    image: `${WarehouseImage}`,
   },
   {
     id: 2,
@@ -29,7 +33,7 @@ const projects: Project[] = [
     description: "Modern and responsive company profile website with dynamic content, smooth animations, and optimized performance.",
     tech: ["React.js", "Vite", "Tailwind CSS"],
     category: ["React"],
-    image: "Ry-Portofolio/projects/landing-page.jpg",
+    image: `${LandingPageImage}`,
   },
   {
     id: 3,
@@ -37,7 +41,7 @@ const projects: Project[] = [
     description: "Cross-platform mobile application for library management with book borrowing, returns tracking, and user management.",
     tech: ["Flutter", "Node.js", "MySQL"],
     category: ["Flutter", "Node.js"],
-    image: "Ry-Portofolio/projects/library.jpg",
+    image: `${LibraryImage}`,
   },
   {
     id: 4,
@@ -45,7 +49,7 @@ const projects: Project[] = [
     description: "Web-based system for managing student financial records, payments, and generating financial reports.",
     tech: ["PHP", "MySQL", "Bootstrap"],
     category: ["PHP"],
-    image: "Ry-Portofolio/projects/student.jpg",
+    image: `${StudentImage}`,
   },
 ];
 

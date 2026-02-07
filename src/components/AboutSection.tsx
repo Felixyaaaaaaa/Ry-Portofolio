@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { GraduationCap, Code, User } from "lucide-react";
+import Profile from "@/assets/profile.jpg";
 
 const AboutSection = () => {
   return (
@@ -29,7 +30,7 @@ const AboutSection = () => {
           >
             <div className="w-64 h-64 md:w-80 md:h-80 mx-auto rounded-2xl bg-gradient-to-br from-primary/20 to-secondary border border-primary/30 flex items-center justify-center glow-border overflow-hidden">
               <img
-                src="Ry-Portofolio/profile.jpg"
+                src={Profile}
                 alt="Profile"
                 className="w-full h-full object-cover rounded-2xl"
               />
