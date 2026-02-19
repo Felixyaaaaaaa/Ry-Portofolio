@@ -46,7 +46,8 @@ const ContactSection = () => {
             Get In <span className="gradient-text">Touch</span>
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Feel free to reach out for collaborations, opportunities, or just to say hello!
+            Feel free to reach out for collaborations, opportunities, or just to
+            say hello!
           </p>
           <div className="w-20 h-1 bg-primary mx-auto rounded-full mt-4" />
         </motion.div>
@@ -92,7 +93,16 @@ const ContactSection = () => {
             <p className="text-muted-foreground mb-4">
               Want to know more about my experience?
             </p>
-            <Button size="lg" className="glow hover:scale-105 transition-transform duration-300">
+            <Button
+              size="lg"
+              className="glow hover:scale-105 transition-transform duration-300"
+              onClick={() => {
+                const link = document.createElement("a");
+                link.href = "/Felix Yulian Asterino_Backend Developer.pdf";
+                link.download = "Resume-Felix.pdf";
+                link.click();
+              }}
+            >
               <Download className="mr-2 h-5 w-5" />
               Download Resume
             </Button>
