@@ -98,7 +98,7 @@ const ContactSection = () => {
               className="glow hover:scale-105 transition-transform duration-300"
               onClick={() => {
                 const link = document.createElement("a");
-                link.href = "/Felix Yulian Asterino_Backend Developer.pdf";
+                link.href = `${import.meta.env.BASE_URL}Felix Yulian Asterino_Backend Developer.pdf`;
                 link.download = "Resume-Felix.pdf";
                 link.click();
               }}
